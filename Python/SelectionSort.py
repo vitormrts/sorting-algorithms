@@ -6,3 +6,8 @@ def selection_sort(array):
                 min_index = i   
         if array[j] > array[min_index]:
             array[j], array[min_index] = array[min_index], array[j]
+
+if __name__ == "__main__":
+    a = [4, 2, 1, 9]
+    selection_sort(a)
+    print(f"Sorted array: {a}")
