@@ -1,2 +1,2 @@
-# sorting-algorithms
-A study about the sorting algorithms.
+# Search and sort algorithms 
+A study about the search and sort algorithms.
