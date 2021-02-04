@@ -1,4 +1,4 @@
-def insertion_sort(A):
+def insertion_sort(A): # O(n^2)
     n = len(A)
     for i in range(1, n): # percorre o array
         key = A[i] # essa chave sera comparada com os elementos a sua esquerda

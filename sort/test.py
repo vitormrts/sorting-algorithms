@@ -2,6 +2,7 @@ import random
 from insertionsort import insertion_sort
 from selectionsort import selection_sort
 from mergesort import merge_sort
+from bubblesort import bubble_sort
 
 any_numbers = random.sample(range(1, 1000), 42)
 
@@ -24,7 +25,7 @@ if __name__ == "__main__":
     for name, lista in test_cases.items():
         print("\nCaso de teste: {}".format(name))
         print(lista)
-        insertion_sort(lista)
+        merge_sort(lista)
         print("\n Ordenado pela funcao:")
         print(lista)
     print("*******************************")
